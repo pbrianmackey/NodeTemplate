@@ -5,6 +5,7 @@ block content
   if error
     p.error= error
 
-  ul
-    each val in results
-      a(href="#{val.notes[0].note}") #{val.name}
+  div(class='row')
+    div(class='list-group col-lg-6')
+      each val in results
+        a(href="#{val.notes[0].note}" class='list-group-item list-group-item-info') #{val.name}

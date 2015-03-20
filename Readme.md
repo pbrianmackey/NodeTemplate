@@ -8,6 +8,9 @@
 - express MV* framework
 - Jade view engine
 - package.json configuration file for npm
+- karma testing framework
+  - [Global install of Karma recommended](https://karma-runner.github.io/0.12/intro/installation.html)
+  - Uses chrome and firefox
 
 ####Framework
 
