@@ -12,6 +12,11 @@
   - [Global install of Karma recommended](https://karma-runner.github.io/0.12/intro/installation.html)
   - Uses chrome and firefox
 
+##Other Dependencies
+
+- [io.js](https://iojs.org/en/index.html)
+ - Required for execution of ES6
+
 ####Framework
 
 - controller
@@ -23,3 +28,7 @@
 - Launch web server: node app
   - app.js is the entry point
 - http://localhost:3333/
+
+##ToDo
+
+- Add [gulp-nodemon](https://www.npmjs.com/package/gulp-nodemon)
