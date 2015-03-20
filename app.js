@@ -7,8 +7,13 @@ var controllers = require("./controllers");
 
 app.set("view engine", "jade");
 
+//set the public static resources folder
+app.use(express.static(__dirname + "/public"));
+
 //Map the routes
 controllers.init(app);
+
+//bower is a facility for dling client side code
 
 app.get("/api/users", function(request, response){
   response.set("Content-type", "application/json");
