@@ -2,3 +2,9 @@ extends layout
 block content
   h1= title
   p This is an express app using layouts!
+  if error
+    p.error= error
+
+  ul
+    each val in results
+      a(href="#{val.notes[0].note}") #{val.name}

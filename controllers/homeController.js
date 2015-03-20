@@ -1,8 +1,15 @@
 (function(homeController){
+  "use strict"
+  let data = require("../data");
+
   homeController.init = function (app){
 
     app.get("/", function(request, response){
-      response.render("jade/index", {title : "Express + Jade"});
+
+      data.getNoteCategories(function (error, results){
+        response.render("jade/index", {title : "Jade", error: "errorHere", results: results});
+      });
+
     });
   };
 })(module.exports);
