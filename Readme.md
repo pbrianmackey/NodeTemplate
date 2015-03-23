@@ -11,6 +11,9 @@
 - karma testing framework
   - [Global install of Karma recommended](https://karma-runner.github.io/0.12/intro/installation.html)
   - Uses chrome and firefox
+- [msnodesql](https://www.npmjs.com/package/msnodesql)
+  - [Because this dependency is tough to install](http://stackoverflow.com/questions/19661811/unable-to-download-msnodesql-0-2-1-v0-10-x64-msi)
+  - Only required if you need MS-SQL
 
 ##Other Dependencies
 
@@ -30,4 +33,4 @@
 - http://localhost:3333/
 - gulp (execute at command line)
 
-##ToDo
+###ToDo
