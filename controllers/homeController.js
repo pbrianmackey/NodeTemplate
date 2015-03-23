@@ -7,7 +7,7 @@
     app.get("/", function(request, response){
 
       data.getNoteCategories(function (error, results){
-        response.render("jade/index", {title : "Jade", error: "errors show here", results: results});
+        response.render("jade/index", {title : "Jade + Express", error: "errors show here", results: results});
       });
 
     });

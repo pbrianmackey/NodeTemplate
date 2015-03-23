@@ -2,7 +2,11 @@ var gulp = require('gulp'),
 nodemon = require('gulp-nodemon');
 
 gulp.task('default', function() {
-  // place code for your default task here
+  nodemon({
+    script: 'app.js'
+  , ext: 'js html'
+  , env: { 'NODE_ENV': 'development' }
+  })
 });
 
 gulp.task('start', function () {
