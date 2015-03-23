@@ -16,6 +16,7 @@
 
 - [io.js](https://iojs.org/en/index.html)
  - Required for execution of ES6
+- (gulp)[http://gulpjs.com/]
 
 ####Framework
 
@@ -28,7 +29,6 @@
 - Launch web server: node app
   - app.js is the entry point
 - http://localhost:3333/
+- gulp (execute at command line)
 
 ##ToDo
-
-- Add [gulp-nodemon](https://www.npmjs.com/package/gulp-nodemon)
