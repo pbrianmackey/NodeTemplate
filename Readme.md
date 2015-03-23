@@ -1,4 +1,4 @@
-#io.js template for wiring up new projects
+#Nodejs or io.js template for wiring up new projects.  This project includes just about everything you need to get going on a new project quickly.  It is ready to go with MS-SQL server.  
 
 ###Includes
 
@@ -34,6 +34,6 @@
 - http://localhost:3333/ => This url tests that the site is up
 - http://localhost:3333/api/sql => This url tests SQL calls.
   - Be sure to set app.js with a query that exists in your database.
-    - `"SELECT * FROM TABLE"`
+    - E.G. `"SELECT TOP 10 * FROM Customers"`
 
 ###ToDo

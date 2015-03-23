@@ -25,7 +25,7 @@ app.get("/api/sql", function(request, response){
   var connString = "Driver={SQL Server Native Client 11.0};Server=(local);Database=master;Trusted_Connection={Yes}"
 
   //Update this to run a real query.
-  var query = "SELECT TOP 10 * FROM ApplicationLog..ErrorLog";
+  var query = "SELECT TOP 10 * FROM Customers";
   msnodesql.query(connString, query, function(err, results){
       if(err){
         console.log(err);
