@@ -14,8 +14,7 @@
 
 ##Other Dependencies
 
-- [io.js](https://iojs.org/en/index.html)
- - Required for execution of ES6
+- [node.js](https://nodejs.org/) OR [io.js](https://iojs.org/en/index.html) for ES6
 - [gulp](http://gulpjs.com/)
 
 ####Framework
