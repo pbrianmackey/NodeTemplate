@@ -22,10 +22,10 @@ app.get("/api/users", function(request, response){
 
 app.get("/api/sql", function(request, response){
   var msnodesql = require("node-sqlserver-unofficial");
-  //var connString = "Data Source=localhost;Initial Catalog=SpendOnLife;Integrated Security=SSPI;";
-  var connString = "Driver={SQL Server Native Client 11.0};Server=tcp:localhost.database.windows.net,1433;Database=SpendOnLife;Integreated Security=SSPI"
+  var connString = "Driver={SQL Server Native Client 11.0};Server=(local);Database=master;Trusted_Connection={Yes}"
 
-  var query = "SELECT * FROM [CreditFulfillment].[sales].[ValidationTokens]";
+  //Update this to run a real query.
+  var query = "SELECT TOP 10 * FROM ApplicationLog..ErrorLog";
   msnodesql.query(connString, query, function(err, results){
       if(err){
         console.log(err);

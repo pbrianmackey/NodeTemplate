@@ -30,7 +30,10 @@
 - npm install
 - Launch web server: node app
   - app.js is the entry point
-- http://localhost:3333/
-- gulp (execute at command line)
+- gulp (execute at command line to start the website)
+- http://localhost:3333/ => This url tests that the site is up
+- http://localhost:3333/api/sql => This url tests SQL calls.
+  - Be sure to set app.js with a query that exists in your database.
+    - `"SELECT * FROM TABLE"`
 
 ###ToDo
