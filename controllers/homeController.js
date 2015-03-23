@@ -1,6 +1,6 @@
 (function(homeController){
   "use strict"
-  let data = require("../data");
+  var data = require("../data");
 
   homeController.init = function (app){
 

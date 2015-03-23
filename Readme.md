@@ -16,7 +16,7 @@
 
 - [io.js](https://iojs.org/en/index.html)
  - Required for execution of ES6
-- (gulp)[http://gulpjs.com/]
+- [gulp](http://gulpjs.com/)
 
 ####Framework
 
