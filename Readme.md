@@ -33,7 +33,7 @@
 - gulp (execute at command line to start the website)
 - http://localhost:3333/ => This url tests that the site is up
 - http://localhost:3333/api/sql => This url tests SQL calls.
-  - Be sure to set app.js with a query that exists in your database.
+  - Be sure to set app.js with a connection string and query that exists in your database.
     - E.G. `"SELECT TOP 10 * FROM Customers"`
 
 ###ToDo
