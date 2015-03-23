@@ -1,4 +1,6 @@
-#Nodejs or io.js template for wiring up new projects.  This project includes just about everything you need to get going on a new project quickly.  It is ready to go with MS-SQL server.  
+#Nodejs or io.js template for wiring up new projects.  
+
+Includes many tools to get going on a new project quickly.  It is ready to go with MongoDB or MS-SQL server.  
 
 ###Includes
 
@@ -19,6 +21,7 @@
 
 - [node.js](https://nodejs.org/) OR [io.js](https://iojs.org/en/index.html) for ES6
 - [gulp](http://gulpjs.com/)
+- [mongodb](https://www.mongodb.org/)
 
 ####Framework
 
@@ -35,5 +38,14 @@
 - http://localhost:3333/api/sql => This url tests SQL calls.
   - Be sure to set app.js with a connection string and query that exists in your database.
     - E.G. `"SELECT TOP 10 * FROM Customers"`
+- Test MongoDB (after launching website at least 1x):  http://localhost:28017/theBoard/notes/
+
+####MongoDB (optional)
+- Install MongoDB
+- change directory to installation path (all the way to /bin)
+- md data
+- mongod -dbpath data --httpinterface --rest (./data on Mac) (starts service)
+ - http://localhost:28017/ => Access MongoDB via HTTP
+ - local DB is akin to master in SQL
 
 ###ToDo
