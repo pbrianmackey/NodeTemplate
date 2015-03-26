@@ -31,14 +31,12 @@ Includes many tools to get going on a new project quickly.  It is ready to go wi
 ##Setup
 
 - npm install
-- Launch web server: node app
-  - app.js is the entry point
+- Start MongoDB:  `D:\Program Files\MongoDB\Server\3.0\bin>mongo --dbpath data`
 - gulp (execute at command line to start the website)
 - http://localhost:3333/ => This url tests that the site is up
 - http://localhost:3333/api/sql => This url tests SQL calls.
   - Be sure to set app.js with a connection string and query that exists in your database.
     - E.G. `"SELECT TOP 10 * FROM Customers"`
-- Test MongoDB (after launching website at least 1x):  http://localhost:28017/theBoard/notes/
 
 ####MongoDB (optional)
 - Install MongoDB
@@ -47,5 +45,6 @@ Includes many tools to get going on a new project quickly.  It is ready to go wi
 - mongod -dbpath data --httpinterface --rest (./data on Mac) (starts service)
  - http://localhost:28017/ => Access MongoDB via HTTP
  - local DB is akin to master in SQL
+- Test MongoDB (after launching website at least 1x):  http://localhost:28017/theBoard/notes/
 
 ###ToDo
